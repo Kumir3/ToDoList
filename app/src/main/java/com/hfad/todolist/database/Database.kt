@@ -9,4 +9,5 @@ import androidx.room.TypeConverters
 
 abstract class Database : RoomDatabase() {
     abstract fun Dao(): Dao
+    abstract fun taskDao(): Any
 }
